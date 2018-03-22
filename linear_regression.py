@@ -1,5 +1,4 @@
 import numpy as np
-from matplotlib import pyplot as plt
 
 def compute_error(b, m, points):
 
@@ -55,8 +54,6 @@ def run():
 	# Prep data
 
 	points = np.genfromtxt('dataset.csv', delimiter=',')
-	plt.scatter(points[0], points[1])
-	plt.show()
 
 	# Hyperparam setup
 
